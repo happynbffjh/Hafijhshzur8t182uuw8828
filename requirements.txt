@@ -6,3 +6,8 @@ urllib3==2.0.7
 certifi==2023.11.17
 charset-normalizer==3.3.2
 idna==3.6
+# Optional: tls_client (uncomment if you want to use it)
+# tls-client==0.2.1
+# Additional requirements for better compatibility
+cryptography==41.0.7
+pyOpenSSL==23.3.0
